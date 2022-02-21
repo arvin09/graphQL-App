@@ -1,0 +1,25 @@
+GraphQL has 
+Schema and Resolvers
+
+Schema can be of Scalar and Object Type
+Scalar are String, Int, Float and Boolean and ID
+
+If we want to make Schema to be mandatory we should append an bang 
+hello:String! or else null is allowed
+
+If we want to return an Array of Strings
+hello: [String] again same we can add a bang bout of the array to restrict nullable value
+
+Resolver has three parameters parents, args and context
+parents - parent of the entity
+args - refrenence to arguments of entity
+context - share data for entity
+
+adding Filters to the data, if we have not scalar filters like object 
+want to filter data based onSale and avgRating is more that 4
+you need to add a input to schema and use it as a filter
+
+
+Mutation is changing the data - Add Update & Delete
+
+
